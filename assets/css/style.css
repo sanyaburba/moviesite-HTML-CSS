@@ -1,0 +1,484 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1.2em;
+	background-color: #fff;
+	color: #555;
+}
+
+p{
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+	color: #5d5d5d;
+	width: 60%;
+	padding: 8px;
+}
+
+h1, h2 {
+	font: normal 170% 'century gothic', arial;
+	margin: 0 0 15px 0;
+	padding: 15px 0 5px 0;
+	color: #000;
+}
+
+h2{
+	font-size: 140%
+}
+
+a, a:hover {
+	outline: none;
+	text-decoration: none;
+	color: #9020c9; 
+}
+
+input, textarea{
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+
+header{
+	background-color: #d6a3f0;
+	height: 177px;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+ul {
+	margin: 2px 0 22px 17px;
+}
+
+ul li {
+	margin 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.2em;
+}
+
+main, footer, .logo, .menubar, .site_content {
+margin-left: auto;
+margin-right: auto;
+}
+
+.logo {
+	width: 880px;
+	padding-bottom: 40px;
+}
+
+.logo h1, .logo h2{
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text a, .logo_text a:hover{
+	padding: 22px 0 0 0;
+	color: #9020c9;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+.logo_text h2{
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #fff ;
+}
+
+.posts .posts_content {
+	font-size: 0.8em;
+}
+
+.info_film_page{
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.info_film_page .label{
+font-size: 1.2 em;
+}
+
+.info_film_page .value{
+	font-size: 1em;
+	color: #d6a3f0;
+	margin-right: 3%;
+}
+
+menu {
+	width: 900px;
+	height: 46px;
+	float: right;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	padding: 28px 0 5px 0;
+	text-align: center;
+	background-color: #d6a3f0;
+	color: #a8aa94;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+}
+
+.description_film {
+	margin-bottom: 15%;
+}
+
+.description_film img {
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;
+	border: solid 5px pink;
+}
+
+.info_film {
+	margin-bottom: 5%;
+	background-color: #f9f9f9;
+	padding: 5%;
+	height: 270px;
+}
+
+.info_film img {
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;	
+	border: solid 5px pink;
+	width: 25%;	
+}
+
+table {
+	width: 100%;
+	border: solid 1px #f4f4f4;
+}
+
+td {
+	padding: 2%;
+	border: solid 1px #f4f4f4
+
+}
+
+td img {
+	vertical-align: middle;
+}
+
+.center {
+	text-align: center;
+}
+.rating {
+	font-weight: bold;
+}
+
+button {
+	background-color: #d6a3f0;
+	padding: 2%;
+	color: white;
+	border-radius: 5px;
+	float: right;
+	margin-top: 5%;
+	clear: both;
+	font-size: 0.8em;
+}
+
+button a {
+	color: white;
+}
+
+.send {
+	margin-bottom: 4%;
+}
+
+.send input[type="text"], textarea {
+	border: solid 1px #c3c3c3;
+	margin-bottom: 2%;
+}
+
+.send input[type="text"] {
+	width: 98%;
+}
+
+.send textarea {
+	width: 624px;
+	height: 200px;
+}
+
+.send input[type="submit"] {
+	background-color: #d6a3f0;
+	padding: 3%;
+	color: white;
+	border-radius: 5px;
+}
+
+
+.reviews {
+	margin-bottom: 4%;
+	font-size: 0.9em;
+}
+
+.reviews .review_name {
+	background-color: #d6a3f0;
+	color: white;
+	padding: 1%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px; 
+}
+
+.reviews .review_text {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+
+}
+
+footer p {
+	color: white;
+	padding: 0 0 10px 0;
+}
+footer a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+ menu li{
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+}
+
+menu li a {
+	font: normal 100% 'trebuchet ms', sans-serif;
+	display: block;
+	height: 20px;
+	padding: 6px 35px 5px 28px;
+	color: #fff;
+	text-decoration: none;
+}
+
+menu li.selected a {
+	color: #9020c9;
+}
+
+menu li a:hover {
+	color: #38104d;
+}
+
+span {
+
+	color : black;
+}
+
+hr{
+	border: solid 1px #9020c9;
+}
+
+.films_block {
+	margin-bottom: 5%;
+}
+
+.films_block img {
+	margin-left: 5px;
+	border-radius: 5px;
+	border: solid 5px pink;
+	width: 22%;
+}
+
+
+
+.site_content{	
+	width: 1000px; 
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	background-color: white;
+}
+
+.sidebar_container {
+	float: right;
+	width: 224px;
+}
+
+.sidebar {
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 1px #f2f2f2;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+
+.btn{
+	padding: 8px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.sidebar h2{
+	color: #f2b0ff;
+}
+
+.lables_passreg_text {
+	font-size: 0.7em;
+	margin-top: 3%;
+	margin-left: 3%;
+}
+
+.sidebar ul{
+	margin: 0;
+}
+
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+
+.sidebar .rating_sidebar {
+	float: right;
+}
+
+.sidebar a {
+	font-size: 17px;
+}
+
+
+
+.content {
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+
+.content a {
+	text-decoration: none;
+}
+
+/*CSS Mobile*/
+
+
+@media only screen 
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+	header {
+		background-color: #2e0046;
+		min-width: 100%;
+		height: 20%;
+		text-align: center;
+	}
+
+	.logo {
+		width: 100%;
+	}
+
+	.site_content {
+		width: 100%;
+	}
+
+	menu {
+		width: 100%;
+		height: 100%;
+		float: none;
+	}
+
+	menu li {
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+
+	.content {
+		width: 100%;
+		text-align: center;
+	}
+
+	.content h1, h2 {
+		font: normal 110% 'century gothic', arial;
+	}
+
+	.films_block img {
+		width: 43%;
+	}
+
+	.site_content {
+		width: 100%;
+		text-align: center;
+	}
+
+	.sidebar_container {
+		display: none;
+	}
+
+	footer {
+		display: none;
+	}
+
+	.posts_content p {
+		line-height: 1.5 em;
+		padding: 3%;
+		text-align: left;
+	}
+
+	.posts p {
+		font-size: 120%;
+	}
+
+	table {
+		display: block;
+	}
+
+	th{
+		font-size: 75%;
+	}
+
+	td {
+		padding: 0;
+		margin: 0;
+		font-size: 95%;
+		text-align: left;
+	}
+
+	td img {
+		width: 75%;
+	}
+
+	video {
+		width: 85%;
+		height: 100%;
+	}
+
+	.description_film {
+		width: 90%;
+		text-align: left;
+		margin-left: 2%
+	}
+
+	.description_film img {
+		float: none;
+		height: 85%;
+		width: 75%;
+		display: block;
+		margin: 0;
+		padding: 0;
+		margin-left: 11%;
+		margin-bottom: 7%;
+	}
+
+	.reviews {
+		text-align: left;
+		width: 97%;
+	}
+
+	.send input[type="text"] {
+		width: 80%;
+	}
+
+	.send textarea {
+		width: 85%;
+	}
+}
